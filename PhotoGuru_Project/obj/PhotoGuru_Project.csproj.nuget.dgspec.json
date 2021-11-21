@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peace\\Desktop\\PhotoGuru_Project\\PhotoGuru_Project\\PhotoGuru_Project.csproj": {}
+    "C:\\files\\guru\\PhotoGuru_Project\\PhotoGuru_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peace\\Desktop\\PhotoGuru_Project\\PhotoGuru_Project\\PhotoGuru_Project.csproj": {
+    "C:\\files\\guru\\PhotoGuru_Project\\PhotoGuru_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peace\\Desktop\\PhotoGuru_Project\\PhotoGuru_Project\\PhotoGuru_Project.csproj",
+        "projectUniqueName": "C:\\files\\guru\\PhotoGuru_Project\\PhotoGuru_Project.csproj",
         "projectName": "PhotoGuru_Project",
-        "projectPath": "C:\\Users\\Peace\\Desktop\\PhotoGuru_Project\\PhotoGuru_Project\\PhotoGuru_Project.csproj",
+        "projectPath": "C:\\files\\guru\\PhotoGuru_Project\\PhotoGuru_Project.csproj",
         "packagesPath": "C:\\Users\\Peace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peace\\Desktop\\PhotoGuru_Project\\PhotoGuru_Project\\obj\\",
+        "outputPath": "C:\\files\\guru\\PhotoGuru_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Peace\\AppData\\Roaming\\NuGet\\NuGet.Config",

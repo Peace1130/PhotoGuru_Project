@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PhotoGuru_Project.Areas.Identity.Data;
+using PhotoGuru_Project.Models;
 
 namespace PhotoGuru_Project.Data
 {
@@ -15,6 +16,8 @@ namespace PhotoGuru_Project.Data
             : base(options)
         {
         }
+
+        public DbSet<Images> Images { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

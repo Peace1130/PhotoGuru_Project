@@ -1,0 +1,14 @@
+﻿@model Images
+@{
+    ViewData["Title"] = "UploadPicture";
+}
+
+<h1>UploadPicture</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <input asp-for="PicName" placeholder="Enter Picture Name" />
+        <input asp-for="Picture" type="file" name="file" />
+        <button type="submit" class="btn btn-success">Upload Picture</button>
+    </div>
+</form>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VtUDfvgfR1gLYrBnOs4RQ/eimbF/jKSWc/B8QNPxjPMlwx0gcGc2SClwm1LiLMpYSjTdphKHcKRuXNF+WD30MA==",
+  "dgSpecHash": "tck9qgZ7Y+5zGFmR7cKxwyaGc/Jc7QUK2O8FNjj5Ho/rr7aSP8AIoKxpLzp+vpy7cM6hjKNbbMqWGVeIbTUwcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Peace\\Desktop\\PhotoGuru_Project\\PhotoGuru_Project\\PhotoGuru_Project.csproj",
+  "projectFilePath": "C:\\files\\guru\\PhotoGuru_Project\\PhotoGuru_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Peace\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Peace\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",

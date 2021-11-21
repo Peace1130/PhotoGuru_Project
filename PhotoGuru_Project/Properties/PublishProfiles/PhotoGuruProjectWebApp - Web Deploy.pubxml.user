@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARk3L/WyTh0+xAcV3R/7HEgAAAAACAAAAAAAQZgAAAAEAACAAAAA7C1mkLR5uma89VoviGmFgbbu687Khx9EMQdhxxsjzgAAAAAAOgAAAAAIAACAAAADF64uCQA/yqqKEqw6MSRSQClwHqjHpIKt6CNXa7W7FVoAAAABMPslcnRYFR0lXhmVvzfl77WX9jy4w4VbYuEoKqEjvq39BGDhdmZSiqRZOoi2kEHMn9w9IBZcEvCTHpT3VWYbCwJ3v9tx/+MtIOTyl7z1kU3rXLQ4AhoR8gsIXG5nGWDoBKdT2wNnZ3Hd/GoSVo1aUzDgj1D1H1cAsgDwKUIfkPUAAAACy4C8xM7QPgnBfNIyl4+W77oQhmS+0o04kNoviW+Bq4zeYExG5/xwmOhSAFqZ6MAR6SlUldfSd5TohGhMTOOe0</EncryptedPassword>
+    <History>False|2021-11-21T17:24:47.0785548Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DBContextConnection">
+      <Value>Data Source=tcp:photogurudbdbaserver.database.windows.net,1433%3bInitial Catalog=PhotoGurudb%3bUser Id=sizwe%40photogurudbdbaserver%3bPassword=Thoko%402005</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="PhotoGuru_Project.Data.DBContext">
+      <Value>Data Source=tcp:photogurudbdbaserver.database.windows.net,1433%3bInitial Catalog=PhotoGurudb%3bUser Id=sizwe%40photogurudbdbaserver%3bPassword=Thoko%402005</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
