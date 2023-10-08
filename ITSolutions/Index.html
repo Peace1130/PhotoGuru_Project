@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Your IT Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        } */
+        header {
+            background-image: url('header-background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            /* background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px; */
+            background-image: url('header-background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .service-image {
+            max-width: 100%; /* Set the maximum width to ensure responsiveness */
+            height: auto; /* Automatically adjust the height to maintain the image's aspect ratio */
+           width: 150px;  /* Set the desired width (you can adjust this value as needed) */
+        }
+        .service-container {
+            display: flex; /* Use flexbox for the layout */
+            justify-content: space-between; /* Distribute space between the service items */
+            margin-bottom: 20px; /* Add spacing between rows */
+        }
+        .service {
+            flex: 0 0 calc(50% - 10px); /* Set each service to occupy 50% of the container width with some spacing */
+            padding: 10px; /* Add spacing around each service */
+            border: 1px solid #ccc; /* Add borders for visual separation */
+            text-align: center;
+        }
+
+        /* Style for the banner */
+        .banner {
+            text-align: center;
+        }
+
+        .banner img {
+            max-width: 100%;
+            height: auto;
+        }
+
+       /* Style for the banner */
+.banner {
+    position: relative; /* Establish a positioning context for child elements */
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the "About Us" content overlay */
+.about-overlay {
+    position: absolute; /* Position the content relative to the banner */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 161, 241, 0.5); /* Semi-transparent background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-overlay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-overlay p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your IT Solutions</h1>
+        <p>Your Trusted Partner for IT Services</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us |</a></li>
+            <li><a href="#services">Services |</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- <section id="about">
+        <div class="banner">
+            <img src="about-banner.jpg" alt="About Us Banner">
+        </div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>We are a team of experienced IT professionals dedicated to providing top-notch IT solutions to businesses of all sizes. Our mission is to Satisfy Our Customer and user needs all the time.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </section> -->
+
+    <section id="about-us">
+        <div class="banner">
+            <img src="about-banner.jpg" alt="About Us Banner">
+            <div class="about-overlay">
+                <h2>About Us</h2>
+                <p>We are a team of dedicated IT professionals with a passion for solving complex technology challenges...</p>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Network Security</li>
+            <li>Cloud Computing</li>
+            <li>Managed IT Services</li>
+            <li>Data Recovery</li>
+        </ul>
+    </section> -->
+    <section id="services">
+        <h2>Our Services</h2>
+      
+        <ul>
+            <li>
+                <img class="service-image" src="Network Security.jpg" alt="Network Security">
+                <h3>Network Security</h3>
+                <p>We provide comprehensive network security solutions to protect your business from cyber threats...</p>
+            </li>
+            <li>
+                <img class="service-image" src="Cloud Computing.jpg" alt="Cloud Computing">
+                <h3>Cloud Computing</h3>
+                <p>Our cloud computing services help you streamline operations and reduce costs...</p>
+            </li>
+            </div>
+            <li>
+                <img class="service-image" src="Managed IT Services.jpg" alt="Managed IT Services">
+                <h3>Managed IT Services</h3>
+                <p>With our managed IT services, you can focus on your core business while we handle IT...</p>
+            </li>
+            <li>
+                <img class="service-image" src="Data Recovery.jpg" alt="Data Recovery">
+                <h3>Data Recovery</h3>
+                <p>We offer data recovery solutions to ensure your critical data is always safe and accessible...</p>
+            </li>
+        </ul>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or need our assistance? Feel free to get in touch with us.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <div class="social-media-links">
+        <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <!-- Add more social media links as needed -->
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Your IT Solutions</p>
+    </footer>
+</body>
+</html>
